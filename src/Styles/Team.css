@@ -1,0 +1,90 @@
+.team-section {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+.team-title-content {
+  text-align: center;
+    margin-bottom: 32px;
+}
+
+.team-title {
+  color: #023436;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  position: relative;
+
+  font-family: sans-serif;
+  font-style:italic;
+}
+.team-dec{
+  font-size: 16px;
+    
+    padding-bottom: 30px;
+    text-align: justify;
+    color: #525252;
+  font-family: sans-serif;
+  font-style:italic;
+}
+
+
+
+.team-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.team-card:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.team-card-body {
+  padding: 20px;
+}
+
+.card-image {
+  width: 80px;
+  height: 80px;
+}
+
+.card-info {
+  margin-left: 15px;
+}
+
+.card-name {
+  color: #023436;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+.card-position {
+  color: #037971;
+  text-align: start;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 700px) {
+  .team-section {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .team-title {
+    font-size: 32px;
+  }
+
+  .card-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-info {
+    margin-left: 10px;
+  }
+}

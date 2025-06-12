@@ -1,0 +1,116 @@
+
+
+.parent-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+
+  /* margin-top: 10px; */
+  position: relative; /* Ensure it respects its natural position */
+  /* Ensure it's above the hero section and below the navbar */
+  padding-top: 50px; /* Adjust according to your fixed navbar's height */
+}
+
+.info-section {
+  margin-bottom: 20px;
+}
+
+.info-title-content {
+  margin-bottom: 20px;
+}
+
+.info-title {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  position: relative;
+  color: #023436;
+  font-family: sans-serif;
+  font-style:italic;
+
+}
+
+.info-description {
+  text-align: justify;
+  font-size: 16px;
+  color: #525252;
+  font-family: sans-serif;
+  font-style:italic;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:100%;
+}
+
+
+.info-cards {
+  width: calc(25% - 20px); /* Adjust for margins and gutters */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px; /* Adjust margin as needed */
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  cursor: pointer; /* Optional: Change cursor to pointer on hover */
+  text-align: center; /* Center align text and icons */
+}
+
+.info-cards:hover {
+  background: linear-gradient(45deg, #00CBBD, #00F4E3 100%);
+  color: #fff; /* Change text color on hover */
+}
+
+.info-cards:hover .info-card-icon {
+  color: #fff; /* Change icon color on hover */
+}
+
+.info-card-icon {
+  color: #037971; /* Default icon color */
+  transition: color 0.3s ease; /* Smooth color transition */
+ 
+}
+
+.info-card-description {
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.info-cards:hover .info-card-description {
+  color: #fff; /* Change description color on hover */
+}
+
+.info-card-title{
+  font-weight:1000;
+  font-size: 18px;
+  color: #037971;
+  transition: color 0.3s ease;
+}
+.info-cards:hover .info-card-title {
+  color: #fff; /* Change icon color on hover */
+  
+}
+
+
+
+
+@media (max-width: 992px) {
+  .info-cards {
+    width: calc(33.33% - 20px); /* Adjust for margins and gutters */
+  }
+}
+
+@media (max-width: 768px) {
+  .info-cards {
+    width: calc(50% - 20px); /* Adjust for margins and gutters */
+  }
+}
+
+@media (max-width: 576px) {
+  .info-cards {
+    width: calc(100% - 20px); /* Adjust for margins and gutters */
+  }
+}

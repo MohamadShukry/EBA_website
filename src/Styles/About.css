@@ -1,0 +1,89 @@
+/* About.css */
+
+#about {
+  width: 80%; /* Adjust this as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  position: relative; /* Ensure it respects its natural position */
+  /* Ensure it's above the hero section and below the navbar */
+  padding-top: 50px; /* Adjust according to your fixed navbar's height */
+}
+
+.about-title {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  position: relative;
+  color: #023436;
+  text-align: center;
+  
+  font-family: sans-serif;
+  font-style:italic;
+
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%; /* Full width of the container */
+  max-width: 1200px; /* Optional: Set a max-width */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.about-text {
+  flex: 3;
+  padding: 16px;
+}
+
+.about-image-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+#container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+}
+
+#container:hover {
+  transform: translateY(-10px); /* Lift the container on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.about-image {
+  width: 100%;
+  max-width: 400px; /* Optional: Set a max-width */
+  height: auto;
+  object-fit: cover;
+}
+
+.about-description {
+  color: #666;
+  text-align: justify;
+  color: #525252;
+  font-family: sans-serif;
+  font-style:italic;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .about-content {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+  }
+
+  .about-text,
+  .about-image-container {
+    width: 100%; /* Full width for small screens */
+  }
+
+  .about-image {
+    width: 100%; /* Scale the image to fit the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

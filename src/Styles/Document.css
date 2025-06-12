@@ -1,0 +1,79 @@
+/* Styling for document cards */
+.document-section {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 50px;
+  }
+  
+  .document-des{
+    font-size: 16px;
+
+    padding-bottom: 30px;
+    text-align: justify;
+    color: #525252;
+  font-family: sans-serif;
+  font-style:italic;
+  }
+
+  
+  .document-title-content {
+    text-align: center;
+    margin-bottom: 32px;
+   
+  }
+  .document-icon{
+
+    color:#00C8BA;
+  }
+
+  .document-title span{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    position: relative;
+   
+  font-family: sans-serif;
+  font-style:italic;
+  }
+  
+  .document-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .document-card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  .document-card-body {
+    text-align: center;
+  }
+  
+  .document-title {
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #023436;
+  }
+  
+  .document-description {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .download-button {
+    color: white;
+    background-color: #023436;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .download-button:hover {
+    color: #023436;
+    background-color: #00C8BA;
+  }
+  

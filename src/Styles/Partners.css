@@ -1,0 +1,33 @@
+.partner-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .partner-image:hover {
+    transform: translateY(-10px); /* Lift the container on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+
+  .pa-section{
+    
+  
+  position: relative;
+  padding-top: 50px;
+  }
+
+  .pa-title{
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  position: relative;
+  margin-bottom: 20px;
+  color: #023436;
+  
+  font-family: sans-serif;
+  font-style:italic;
+  
+  }
+ 
+ 
+ 

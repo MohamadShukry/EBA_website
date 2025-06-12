@@ -1,0 +1,79 @@
+.review-section {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  
+    /* margin-top: 10px; */
+    position: relative; /* Ensure it respects its natural position */
+    /* Ensure it's above the hero section and below the navbar */
+    padding-top: 50px; /* Adjust according to your fixed navbar's height */
+}
+.rounded-circle {
+    border: none !important;
+    box-shadow: none !important;
+
+    
+ 
+  }
+
+  .mb-0{
+    text-align: justify;
+    color: #525252;
+  font-family: sans-serif;
+  font-style:italic;
+  }
+  
+  
+/* Text */
+.rw-text-content {
+    width: 100%;
+    
+}
+.mb-4{
+    color: #023436; 
+}
+
+.mb-4 span{
+    color: #037971; 
+    font-size: 18px;
+}
+.rw-text-title {
+   
+    color: #023436;
+    
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: .7px;
+    
+  font-family: sans-serif;
+  font-style:italic;
+}
+.rw-text-num {
+    color: #00C8BA;
+}
+.rw-text-desc {
+   
+    color: #023436;
+  
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: .7px;
+    line-height: 2.6rem;
+    
+  font-family: sans-serif;
+  font-style:italic;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+    .review-section {
+        letter-spacing: .8px;
+    }
+    .rw-text-title {
+        font-size: 22px;
+    }
+    
+   
+}
